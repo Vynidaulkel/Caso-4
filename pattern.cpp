@@ -16,7 +16,7 @@ p = 2*b + 2+h.
 1-> dibujar horizontal
 */
 string figuras [2] = {"linea","escuadra"};
-string colores [5] = {"Pink","Green","Purple","Yellow","Red"};
+string colores [5] = {"pink","green","purple","yellow","red"}; //Colores utilizados
 int forma = 0;
 
 // El llenado del rectangulo sera siempre de lineas y escuadras
@@ -25,15 +25,25 @@ int forma = 0;
 //
 
 void drawPattern(int pAncho, int pAltura){
-    unsigned int area = pAncho * pAltura;
-    while(true){
-        int figuraActual = rand()%2;
-        
-        if(forma = 0){
-            
-        }   
-        else{
 
+    unsigned int area = pAncho * pAltura;
+    int color = 4;
+    Point punto = Point (0,0);
+
+    while(true){
+        string figuraActual = figuras[rand()%2];
+        string colorActual = colores[(++color)%5];
+
+        if(figuraActual == "linea"){
+            cout<<"linea-"<<colorActual<<"-";
+            switch(forma){
+            case 0:
+                cout<<"vertical-";
+                break;
+            case 1: 
+                cout<<"Horizontal-";
+                break;
+            }
         }                                   
     }
 }
