@@ -14,11 +14,11 @@ El algoritmo ocupa el ancho y alto de una figura rectangular, para formar el pat
 
 Pd: El ancho de cada figura varia en cada creacion entre 2 y 7.
 
-Prueba #1
+
 ![image](https://user-images.githubusercontent.com/71288541/111852507-cf7a1800-88dc-11eb-9d1d-2288e5a03b6e.png)
 
 
-Prueba #2
+
 ![image](https://user-images.githubusercontent.com/71288541/111852884-5976b080-88de-11eb-8eb9-dc84df2322e1.png)
 ![image](https://user-images.githubusercontent.com/71288541/111852899-66939f80-88de-11eb-91ba-baf58ce3557a.png)
 
